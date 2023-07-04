@@ -239,6 +239,102 @@ var theLayers=
 	document.getElementById("theImageLayer9A")
 	//"Top"
 	],
+	[
+	//"Bottom"
+	
+	//theLayers[0] - Background
+	document.getElementById("theImageLayer1B"),
+	
+	//theLayers[1] - Torso
+	document.getElementById("theImageLayer2B"),
+	
+	//theLayers[2] - Hair (Back)
+	document.getElementById("theImageLayer3B"),
+	
+	//theLayers[3] - Neck
+	document.getElementById("theImageLayer4B"),
+	
+	//theLayers[4] - Shirt
+	document.getElementById("theImageLayer5B"),
+	
+	//theLayers[5] - Head
+	document.getElementById("theImageLayer6B"),
+	
+	//theLayers[6] - Hair (Front)
+	document.getElementById("theImageLayer7B"),
+	
+	//theLayers[7] - Facial Hair
+	document.getElementById("theImageLayer8B"),
+	document.getElementById("theImageLayer9B")
+	//"Top"
+	],
+	[
+	//"Bottom"
+	
+	//theLayers[0] - Background
+	document.getElementById("theImageLayer1C"),
+	
+	//theLayers[1] - Torso
+	document.getElementById("theImageLayer2C"),
+	
+	//theLayers[2] - Hair (Back)
+	document.getElementById("theImageLayer3C"),
+	
+	//theLayers[3] - Neck
+	document.getElementById("theImageLayer4C"),
+	
+	//theLayers[4] - Shirt
+	document.getElementById("theImageLayer5C"),
+	
+	//theLayers[5] - Head
+	document.getElementById("theImageLayer6C"),
+	
+	//theLayers[6] - Hair (Front)
+	document.getElementById("theImageLayer7C"),
+	
+	//theLayers[7] - Facial Hair
+	document.getElementById("theImageLayer8C"),
+	document.getElementById("theImageLayer9C")
+	//"Top"
+	],
+	[
+	//"Bottom"
+	
+	//theLayers[0] - Background
+	document.getElementById("theImageLayer1D"),
+	
+	//theLayers[1] - Torso
+	document.getElementById("theImageLayer2D"),
+	
+	//theLayers[2] - Hair (Back)
+	document.getElementById("theImageLayer3D"),
+	
+	//theLayers[3] - Neck
+	document.getElementById("theImageLayer4D"),
+	
+	//theLayers[4] - Shirt
+	document.getElementById("theImageLayer5D"),
+	
+	//theLayers[5] - Head
+	document.getElementById("theImageLayer6D"),
+	
+	//theLayers[6] - Hair (Front)
+	document.getElementById("theImageLayer7D"),
+	
+	//theLayers[7] - Facial Hair
+	document.getElementById("theImageLayer8D"),
+	document.getElementById("theImageLayer9D")
+	//"Top"
+	]
+];
+
+var theNames=
+[
+	document.getElementById("theName1"),
+	document.getElementById("theName2"),
+	document.getElementById("theName3"),
+	document.getElementById("theName4"),
+	document.getElementById("theName5")
 ];
 
 //========

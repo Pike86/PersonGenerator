@@ -1,5 +1,5 @@
 //========================
-//Administrative Variables
+//ADMINISTRATIVE VARIABLES
 //========================
 
 	//-----------------------
@@ -21,7 +21,10 @@
 	var darkGreen = "#145214";
 	var lightGold = "#e6e600";/*40%*/
 	var darkGold = "#666600";/*20%*/
-	
+
+//===============
+//IMAGE VARIABLES
+//===============
 var images =
 [
 	//images[0] = background
@@ -354,6 +357,7 @@ function generateImage(person)
 	{
 	maleColorVar = getRandomInt(0,4);
 	maleFacialColorVar = getRandomInt(0,4);
+	shirtColorVar = getRandomInt(0,7);
 	femaleColorVar = getRandomInt(0,3);
 	}
 	var thePerson = person;
@@ -369,10 +373,7 @@ function generateImage(person)
 		theLayers[thePerson][5].src=images[7][0].Image;
 	}
 	calculateGender();
-	if(thePerson==0)
-	{
-	generateName();
-	}
+	generateName(thePerson);
 	function calculateGender()
 	{
 		//First Calculate M or F
@@ -475,9 +476,10 @@ function generateFirstname()
 		selectedFirstName = femaleFirstNames[getRandomInt(0,femaleFirstNames.length)];
 	}
 }
-function generateName()
+function generateName(person)
 {
+var thePerson = person;
 generateFirstname();
 generateSurname();
-document.getElementById("theName").innerHTML=selectedFirstName + " " + selectedSurname;
+theNames[thePerson].innerHTML = selectedFirstName + " " + selectedSurname;
 }
